@@ -68,6 +68,7 @@ class Usuario {
     if (json == null || json.isEmpty) {
       return null;
     }
+    
     Map map = convert.json.decode(json);
     Usuario user = Usuario.fromJson(map);
 
