@@ -15,7 +15,7 @@ class CarroApi {
     
     // print(">>> Headers: ${headers}");
 
-    var url = 'xxxxxxxhttps://carros-springboot.herokuapp.com/api/v2/carros/tipo/$tipo';
+    var url = 'https://carros-springboot.herokuapp.com/api/v2/carros/tipo/$tipo';
 
     var response = await http.get(url, headers: headers);
 
